@@ -72,6 +72,7 @@ fun Info() {
                 .clip(RoundedCornerShape(8.dp))
                 .background(NuColor03)
                 .width(240.dp)
+                .height(70.dp)
                 .padding(vertical = 8.dp),
             verticalArrangement = Arrangement.Center
         ) {
@@ -79,7 +80,7 @@ fun Info() {
                 buildAnnotatedString {
                     append("Salve seus amigos da burocracia.")
                     withStyle(style = SpanStyle(color = NuColor02)) {
-                        append("Faça um convite para o NuBank")
+                        append(" Faça um convite para o NuBank")
                     }
                 },
                 modifier = Modifier

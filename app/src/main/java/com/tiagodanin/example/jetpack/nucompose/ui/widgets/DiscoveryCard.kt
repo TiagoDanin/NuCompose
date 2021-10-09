@@ -27,7 +27,7 @@ fun DiscoveryCard(title: String, description: String, buttonTitle: String) {
         modifier = Modifier
             .clip(RoundedCornerShape(8.dp))
             .width(240.dp)
-            .height(150.dp)
+            .height(180.dp)
             .background(NuColor03)
             .padding(vertical = 10.dp, horizontal = 10.dp),
         verticalArrangement = Arrangement.SpaceBetween
